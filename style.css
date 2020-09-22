@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: blanchedalmond;
+    border: none;
+}
+.button:hover{
+    background-color:whitesmoke;
+    color:black;
+    box-shadow: black;
+}
+.textview{
+    width: 15.7rem;
+    margin: 5px;
+    font-size: 2rem;
+    padding: 5px;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.background{
+    background:linear-gradient(to right,green,rgba(0, 0, 255, 0.692));
+    height: 100vh;
+}
