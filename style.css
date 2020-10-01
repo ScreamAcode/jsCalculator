@@ -3,6 +3,7 @@
     padding: 0;
 }
 .button{
+    outline: 0;
     width: 3.5rem;
     height: 3.5rem;
     margin: 5px;
@@ -11,14 +12,17 @@
     background-color: black;
     color: blanchedalmond;
     border: none;
+    transition: 0.3s;
 }
 .button:hover{
     background-color:whitesmoke;
     color:black;
     box-shadow: black;
+    transition: 0.3s;
 }
 .textview{
     width: 15.7rem;
+    outline: 0;
     margin: 5px;
     font-size: 2rem;
     padding: 5px;
