@@ -30,6 +30,6 @@
     transform: translateX(-50%) translateY(-50%);
 }
 .background{
-    background:linear-gradient(to right,green,rgba(0, 0, 255, 0.692));
+    background:linear-gradient(to right,rgb(132, 144, 255),rgba(255, 0, 170, 0.692));
     height: 100vh;
 }
