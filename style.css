@@ -17,7 +17,7 @@
 .button:hover{
     background-color:whitesmoke;
     color:black;
-    box-shadow: black;
+    box-shadow:2px 3px black;
     transition: 0.3s;
 }
 .textview{
